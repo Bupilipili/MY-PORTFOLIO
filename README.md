@@ -69,8 +69,6 @@ Example commands:
 
 ## 👥 Authors <a name="authors"></a>
 
-> Mention all of the collaborators of this project.
-
 👤 **Bupilipili**
 
 - GitHub: [@bupilipili](https://github.com/bupilipili)
@@ -80,8 +78,6 @@ Example commands:
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 🔭 Future Features <a name="future-features"></a>
-
-> Describe 1 - 3 features you will add to the project.
 
 - [ ] **[Blog]**
 - [ ] **[FAQs]**
