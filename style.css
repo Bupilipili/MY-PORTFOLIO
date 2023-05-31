@@ -7,14 +7,14 @@ body {
 
 .content {
   display: flex;
-  background-image: url(/features/images/header-illsutration-mobile.svg);
+  background-image: url(./features/images/header-illsutration-mobile.svg);
   background-repeat: no-repeat;
   background-size: cover;
   justify-content: center;
   flex-direction: column;
   flex-wrap: wrap;
   align-items: center;
-  height: 42rem;
+  height: 41rem;
 }
 
 #nav-bar {
