@@ -124,7 +124,6 @@ body {
 
 .item2 {
   padding: 16px;
-  font-size: 24px;
   font-weight: 600;
   color: #3a4a42;
 }
@@ -168,7 +167,7 @@ body {
 }
 
 .about {
-  font-size: 40px;
+  font-size: 48px;
   padding-left: 26px;
   padding-right: 26px;
   color: #172b4d;
