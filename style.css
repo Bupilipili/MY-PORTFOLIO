@@ -284,3 +284,14 @@ body {
   padding-left: 24px;
   color: #172b4d;
 }
+
+#my-email {
+  color: #42526e;
+  font-weight: 400;
+  font-size: 20px;
+  margin-top: 0;
+}
+
+.form {
+  padding-bottom: 31px;
+}
