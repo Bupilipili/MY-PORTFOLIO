@@ -295,3 +295,47 @@ body {
 .form {
   padding-bottom: 31px;
 }
+#my-email {
+  color: #42526e;
+  font-weight: 400;
+  font-size: 20px;
+  margin-top: 0;
+}
+
+.form {
+  padding-bottom: 31px;
+}
+.text-placeholder::placeholder {
+    font-style: italic;
+    font-weight: 400;
+    font-size: 15px;
+    color: #6b778c;
+  }
+  
+  input {
+    padding: 15px 16px 15px 16px;
+  }
+  
+  .flex6 {
+    display: flex;
+    flex-direction: column;
+    padding-left: 24px;
+    padding-right: 30px;
+    padding-bottom: 24px;
+  }
+  
+  .flex7 {
+    display: flex;
+    flex-direction: column;
+    padding-left: 24px;
+    padding-right: 30px;
+    gap: 24px;
+  }
+  
+  .style-placeholder::placeholder {
+    font-weight: 400;
+    font-size: 15px;
+    color: #42526e;
+  }
+
+
