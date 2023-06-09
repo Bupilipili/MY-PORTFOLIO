@@ -493,6 +493,11 @@ textarea {
     border-radius: 8px;
   }
 
+  .grid-container:hover {
+  .grid-container {
+   transform: scale(1);
+  }
+  
   #img2 {
     margin-bottom: 62px;
   }
