@@ -9,21 +9,30 @@
 </head>
  <body>
      <header>
-      <nav id="nav-bar">
-            <a href="#">
-            <div class="bar"></div>
-            <div class="bar"></div>
-            <div class="bar"></div>
-            </a>
-      </nav>
-    </header>
+      <div id="nav-bar">
+        <a href="#">
+        <div class="bar"></div>
+        <div class="bar"></div>
+        <div class="bar"></div>
+        </a>
+      </div>
+     </header>
      <main>
-        <section class="content">
-           <h1 id="head1">Hey there.<br> I’m Erick.<br>
-               <span id="head2">I’m a software <br> developer</span>
-           </h1>
+      <section class="content">
+      <nav>
+        <ul class="desktop-nav">
+          <li class="nav-items"><a href="#">Portfolio</a></li>
+          <li class="nav-items"><a href="#">About</a></li>
+          <li class="nav-items"><a href="#">Contact</a></li>
+      </ul>
+      </nav>
+            <h1>
+             <div><p id="head1">Hey there.<br> I’m Erick.</p>
+              <span id="head2"><p>I’m a software <br> developer</p></span>
+             </div>
+              </h1>
            <p class="intel">
-            I can help you build a product, feature or website Look through some of my work and experience!<br> If you like what you see and have a project you need coded,<br> 
+            I can help you build a product, feature or website Look through some of my work and experience!If you like what you see and have a project you need coded,<br> 
             don’t hesitate to contact me.
           </p>
            <ul class="icon-box">
@@ -35,12 +44,12 @@
            </ul>
            <img id="img" src="./features/images/Disabled.png">
        </section>
-     <section>
+       <section>
         <div id="content2"><h4 class="works">My Recent Works</h4>
            <img id="img2" src="./features/images/Indicator.png">
         </div>
          <div class="main-container">
-            <div class="grid-container">
+          <div class="grid-container">
               <div class="item1"></div>
                <div class="flex">
                 <h2 class="item2">Multi-Post Stories Gain+Glory</h2>
@@ -118,15 +127,16 @@
                   <a href="#" target="_blank" class="item7">See project</a>
                  </div>
                </div>
-            </div>
+           </div>
  </section>
-   <section>
+   <section id="About-me-image">
      <div id="About-me">
        <h3 class="about">About me</h3>
-          <p class="intel"> I can help you build a product, feature or website Look through some of my work and experience!<br> If you like what you see and have a project you need coded,<br> 
+          <p class="intel"> I can help you build a product, feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, 
             don’t hesitate to contact me.</p>
             <a href="#" target="_blank" class="item7">Get my resume</a>
      </div>
+   </section>
      <div class="main-grid">
        <div class="flex1">
           <img id="icon" src="./features/images/Icons.png">
@@ -165,14 +175,10 @@
          </ul>
        </div>
      </div>
+   </main>
+   <footer id="background">
       <div class="flex5">
         <p id="bio">I'm always interested in hearing about new projects, so if you'd like to chat please get in touch.</p>
-       </div>
-    </section>
-  </main>
-   <footer>
-    <section>
-      <div id="vector">
      <form action="https://formspree.io/f/xoqzonzv" method="post" class="form">
        <div class="flex6">
          <input type="text" name="name" placeholder="Full name" maxlength="30" class="text-placeholder" required>
@@ -186,7 +192,8 @@
         </div> 
      </form>
       <p id="my-email">bupepperleather@gmail.com</p>
-      </div>
+    </div>
+      <div id="rectangle"></div>
          <div id="myflex">
             <ul class="icon-box2">
              <li><a href="#"><img src="./features/icons/twitter.svg" alt="twitter"></a></li>
@@ -197,7 +204,6 @@
            </ul>
          <div class="mini-bar"></div>
          </div>
-     </section>
-  </footer>
+   </footer>
  </body>
 </html>
