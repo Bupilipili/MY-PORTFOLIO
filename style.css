@@ -11,6 +11,14 @@ body {
   margin: 0%;
 }
 
+.heading-desktop {
+  display: none;
+}
+
+.desktop-nav {
+  display: none;
+}
+
 .content {
   display: flex;
   background-image: url(./features/images/header-illsutration-mobile.svg);
@@ -43,8 +51,9 @@ body {
 #head1 {
   font-family: 'Inter', sans-serif;
   color: #172b4d;
-  margin-bottom: 0;
+  margin-bottom: 0%;
   font-size: 40px;
+  padding-bottom: 0;
 }
 
 #head2 {
@@ -60,9 +69,7 @@ body {
   font-weight: 400;
   font-size: 20px;
   line-height: 140%;
-  padding-right: 18px;
-  padding-left: 12px;
-  padding-bottom: 24px;
+  padding: 24px 18px 24px 12px;
 }
 
 .icon-box {
@@ -75,7 +82,6 @@ body {
   gap: 20px;
   list-style: none;
   padding-left: 0;
-  padding-top: 22px;
 }
 
 #img {
@@ -105,8 +111,6 @@ body {
   display: grid;
   grid-template-columns: auto;
   background-color: #ebf0ee;
-  margin-left: 28px;
-  margin-right: 28px;
   border-radius: 8px;
 }
 
@@ -173,6 +177,8 @@ body {
   grid-template-columns: auto;
   grid-template-rows: auto auto auto auto auto auto;
   gap: 24px;
+  margin-left: 28px;
+  margin-right: 28px;
 }
 
 .about {
@@ -180,8 +186,6 @@ body {
   padding-right: 26px;
   color: #172b4d;
   font-weight: 700;
-  padding-top: 20px;
-  margin-bottom: 24px;
   font-size: 48px;
 }
 
@@ -219,8 +223,6 @@ body {
   justify-content: center;
   flex-wrap: nowrap;
   background-color: #ebf0ee;
-  margin-left: 28px;
-  margin-right: 28px;
   border-radius: 8px;
 }
 
@@ -280,22 +282,27 @@ body {
   grid-template-columns: auto;
   grid-template-rows: auto auto auto;
   gap: 24px;
+  margin-left: 1.75rem;
+  margin-right: 1.75rem;
 }
 
 .flex5 {
   display: flex;
   flex-direction: column;
-  padding-bottom: 12px;
   padding-top: 12px;
   margin-top: 54px;
-  margin-bottom: 58px;
+  background-image: url(./features/images/illustration-contact-form.svg);
+  background-repeat: no-repeat;
+  background-size: 70px;
+  background-position: right bottom;
+  padding-right: 30px;
+  padding-left: 24px;
 }
 
 #bio {
   font-weight: 700;
   font-size: 40px;
-  padding-right: 30px;
-  padding-left: 24px;
+  padding-bottom: 58px;
   color: #172b4d;
 }
 
@@ -313,16 +320,12 @@ input {
 .flex6 {
   display: flex;
   flex-direction: column;
-  padding-left: 24px;
-  padding-right: 30px;
   padding-bottom: 24px;
 }
 
 .flex7 {
   display: flex;
   flex-direction: column;
-  padding-left: 24px;
-  padding-right: 30px;
   gap: 24px;
 }
 
@@ -330,6 +333,7 @@ input {
   font-weight: 400;
   font-size: 15px;
   color: #42526e;
+  font-family: 'Inter', sans-serif;
 }
 
 textarea {
@@ -362,14 +366,7 @@ textarea {
   font-weight: 400;
   font-size: 20px;
   margin-top: 0;
-  padding-top: 32px;
-}
-
-#vector {
-  background-image: url(./features/images/illustration-contact-form.svg);
-  background-repeat: no-repeat;
-  background-size: 65px;
-  background-position: right bottom;
+  padding-top: 48px;
 }
 
 .icon-box2 {
@@ -408,20 +405,48 @@ textarea {
   body {
     font-family: 'Inter', sans-serif;
     text-align: center;
-    margin: 0%;
+    width: fit-content;
+    height: 100vh;
+  }
+
+  #nav-bar {
+    display: none;
+  }
+
+  .desktop-nav {
+    display: flex;
+    list-style: none;
+    gap: 36px;
+    padding-bottom: 222px;
+  }
+
+  .nav-items a {
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+    color: #172b4d;
   }
 
   .content {
     display: flex;
     background-image: url(./features/images/Header-llustration-desktop.svg);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
     justify-content: center;
     flex-direction: column;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     align-items: center;
-    height: 30rem;
-    padding: 0 100px 0 100px;
+    height: 65rem;
+    padding-bottom: 24rem;
+  }
+
+  p {
+    padding: 0;
+    margin: 0;
+  }
+
+  br {
+    display: none;
   }
 
   #head1 {
@@ -443,9 +468,8 @@ textarea {
     color: #172b4d;
     font-weight: 400;
     font-size: 20px;
-    line-height: 140%;
-    padding-right: 18px;
-    padding-left: 12px;
+    line-height: 32px;
+    padding: 24px 264px 24px 264px;
   }
 
   .icon-box {
@@ -462,17 +486,20 @@ textarea {
   }
 
   #img {
-    margin-top: 40px;
-    margin-bottom: 20px;
+    margin-top: 2.5rem;
+    margin-bottom: 1.25rem;
   }
 
   .works {
-    font-size: 48px;
-    padding-left: 28px;
-    padding-right: 28px;
+    font-size: 40px;
+    padding-left: 1.75rem;
+    padding-right: 1.75rem;
     color: #172b4d;
     font-weight: 700;
     margin-top: 0;
+    padding-bottom: 52px;
+    margin-left: 396px;
+    margin-right: 395px;
   }
 
   #content2 {
@@ -488,17 +515,15 @@ textarea {
     display: grid;
     grid-template-columns: auto;
     background-color: #ebf0ee;
-    margin-left: 28px;
-    margin-right: 28px;
     border-radius: 8px;
   }
 
   #img2 {
-    margin-bottom: 62px;
+    display: none;
   }
 
   .item1 {
-    padding: 120px;
+    padding: 7.5rem;
   }
 
   .flex {
@@ -507,14 +532,14 @@ textarea {
     align-items: center;
     flex-direction: column;
     background-color: white;
-    margin: 1px;
+    margin: 0.063rem;
     justify-content: center;
-    padding-bottom: 24px;
+    padding-bottom: 1.5rem;
     border-radius: 8px;
   }
 
   .item2 {
-    padding: 16px;
+    padding: 1rem;
     font-weight: 600;
     color: #3a4a42;
   }
@@ -523,9 +548,9 @@ textarea {
     display: flex;
     flex-wrap: nowrap;
     flex-direction: row;
-    gap: 8px;
+    gap: 0.5rem;
     align-items: center;
-    padding-bottom: 29px;
+    padding-bottom: 1.81rem;
     color: #3a4a42;
     list-style: none;
     padding-left: 0;
@@ -554,14 +579,18 @@ textarea {
     display: grid;
     grid-template-columns: auto auto auto;
     grid-template-rows: auto;
-    gap: 24px;
+    gap: 1.5rem;
+    margin-left: 131px;
+    margin-right: 130px;
   }
 
   .main-container {
     display: grid;
     grid-template-columns: auto auto auto;
     grid-template-rows: auto auto;
-    gap: 24px;
+    gap: 1.5rem;
+    margin-left: 131px;
+    margin-right: 130px;
   }
 
   .about {
@@ -569,23 +598,36 @@ textarea {
     padding-right: 26px;
     color: #172b4d;
     font-weight: 700;
-    padding-top: 2px;
-    margin-bottom: 24px;
     font-size: 48px;
   }
 
   #About-me {
     display: flex;
-    background-image: url(/features/images/illustration-\ about\ me-\ mobile\ \.svg);
+    background-image: url(./features/images/illustration-about-me-2-desktop.svg);
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: 16rem;
+    background-position: left center;
     justify-content: center;
     flex-direction: column;
     flex-wrap: nowrap;
     align-items: center;
     padding-top: 40px;
-    height: 21rem;
-    padding-bottom: 59px;
+    padding-bottom: 0;
+    margin-bottom: 81px;
+  }
+
+  #About-me-image {
+    background-image: url(./features/images/illustration-about\ me-1-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: 16rem;
+    background-position: right top;
+  }
+
+  #background {
+    background-image: url(./features/images/Frame\ footer.svg);
+    background-repeat: no-repeat;
+    background-size: 12rem;
+    background-position: left 80%;
   }
 
   .grid {
@@ -595,8 +637,8 @@ textarea {
     background-color: #ebf0ee;
     padding: 141px;
     border-radius: 8px;
-    margin-left: 28px;
-    margin-right: 28px;
+    margin-left: 1.75rem;
+    margin-right: 1.75rem;
   }
 
   .flex1 {
@@ -606,8 +648,6 @@ textarea {
     justify-content: center;
     flex-wrap: nowrap;
     background-color: #ebf0ee;
-    margin-left: 28px;
-    margin-right: 28px;
     border-radius: 8px;
   }
 
@@ -662,18 +702,27 @@ textarea {
   }
 
   .flex5 {
-    display: flex;
-    flex-direction: column;
-    padding-bottom: 12px;
-    padding-top: 12px;
+    background-image: url(./features/images/Frame.svg);
+    background-repeat: no-repeat;
+    background-size: 13rem;
+    background-position: right bottom;
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: 2.1fr 2.9fr;
+    align-items: center;
+    gap: 8px;
+    padding-bottom: 238px;
+    padding-top: 97px;
+    padding-right: 131px;
+    padding-left: 130px;
+    margin-top: 0;
   }
 
   #bio {
     font-weight: 700;
-    font-size: 40px;
-    padding-right: 30px;
-    padding-left: 24px;
+    font-size: 27px;
     color: #172b4d;
+    line-height: 52px;
   }
 
   .text-placeholder::placeholder {
@@ -690,16 +739,12 @@ textarea {
   .flex6 {
     display: flex;
     flex-direction: column;
-    padding-left: 24px;
-    padding-right: 30px;
     padding-bottom: 24px;
   }
 
   .flex7 {
     display: flex;
     flex-direction: column;
-    padding-left: 24px;
-    padding-right: 30px;
     gap: 24px;
   }
 
@@ -707,6 +752,7 @@ textarea {
     font-weight: 400;
     font-size: 15px;
     color: #42526e;
+    font-family: 'Inter', sans-serif;
   }
 
   textarea {
@@ -719,20 +765,37 @@ textarea {
     color: #fff;
     padding: 12px;
     border-radius: 4px;
-    margin: 0 100px 0 100px;
     border: 0;
     font-weight: 500;
     font-size: 17px;
+    margin-left: 0;
+    margin-right: 450px;
+  }
+
+  #rectangle {
+    display: flex;
+    background-color: #dfe1e6;
+    height: 1px;
+  }
+
+  .mini-bar {
+    display: none;
   }
 
   #my-email {
-    color: #42526e;
-    font-weight: 400;
-    font-size: 20px;
-    margin-top: 0;
+    display: none;
   }
 
   .form {
     padding-bottom: 31px;
+  }
+
+  .touch:hover {
+    background: #36b37f;
+    box-shadow: 0 8px 16px rgba(54, 179, 127, 0.24);
+  }
+
+  .touch:active {
+    background: #008552;
   }
 }
