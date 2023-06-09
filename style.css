@@ -410,6 +410,8 @@ textarea {
     font-family: 'Inter', sans-serif;
     text-align: center;
     margin: 0%;
+    width: fit-content;
+    overflow-x: hidden;
   }
 
   .content {
