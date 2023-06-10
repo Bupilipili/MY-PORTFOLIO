@@ -404,7 +404,6 @@ textarea {
 @media screen and (min-width: 768px) {
   body {
     font-family: 'Inter', sans-serif;
-    text-align: center;
     width: fit-content;
     height: 100vh;
     overflow-x: hidden;
