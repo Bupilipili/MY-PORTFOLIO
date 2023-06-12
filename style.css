@@ -518,6 +518,10 @@ textarea {
     border-radius: 8px;
   }
 
+  .grid-container:hover {
+    transform: scale(1.05);
+  }
+
   #img2 {
     display: none;
   }
