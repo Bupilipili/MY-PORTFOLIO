@@ -655,10 +655,6 @@ textarea {
     border-radius: 8px;
   }
 
-  .flex1:hover {
-    transform: scale(1.05);
-  }
-
   #icon {
     padding-top: 40px;
   }
