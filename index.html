@@ -5,27 +5,23 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
     <title>Erick's Portfolio</title>
 </head>
  <body>
      <header>
-      <div id="nav-bar">
-        <a href="#">
-        <div class="bar"></div>
-        <div class="bar"></div>
-        <div class="bar"></div>
-        </a>
-      </div>
-     </header>
-     <main>
-      <section class="content">
       <nav>
         <ul class="desktop-nav">
+        <i  class="fa fa-times" id="close_menu" aria-hidden="true"></i>
           <li class="nav-items"><a href="#">Portfolio</a></li>
           <li class="nav-items"><a href="#">About</a></li>
           <li class="nav-items"><a href="#">Contact</a></li>
       </ul>
+      <i class="fa fa-bars" id="menu" aria-hidden="true"></i>
       </nav>
+     </header>
+     <main>
+      <section class="content">
             <h1>
              <p id="head1">Hey there.<br> I’m Erick.</p>
               <span id="head2"><p>I’m a software <br> developer</p></span>
@@ -204,5 +200,6 @@
          <div class="mini-bar"></div>
          </div>
    </footer>
+   <script src="portfolio.js"></script>
  </body>
 </html>
