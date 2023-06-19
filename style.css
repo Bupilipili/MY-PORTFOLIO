@@ -1,5 +1,6 @@
 * {
   margin: 0;
+  overflow-x: hidden;
   list-style-type: none;
   text-align: center;
 }
@@ -15,16 +16,17 @@ button:active {
 }
 
 #mobileMenu {
-  display: none;
+  display: none ;
   position: fixed;
   z-index: 1;
   background-color: #fff;
   width: 100%;
   margin-top: 0%;
   margin-left: 0%;
-  height: 100%;
-  padding-top: 20px;
+  height: 100vh;
+  /* padding-top: 20px; */
   margin-bottom: 100%;
+  margin-top: 0;
 }
 
 .mobileMenuContent {
