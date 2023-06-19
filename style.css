@@ -2,20 +2,43 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  outline: none;
+  color: #fff;
+  outline: none;
+  background: none repeat scroll 0 0 transparent;
+  border: 0;
+  border-spacing: 0;
+  list-style-type: none;
+
+  text-align: center;
 }
 
-#mobile-menu {
+#mobileMenu {
   display: none;
+  position: fixed;
+  z-index: 0;
   background-color: #fff;
-  width: fit-content;
+  width: 100vw;
+  max-height: max-content;
+  margin-top: 50%;
+}
+
+.mobileMenuContent {
+  display: flex;
+  flex-direction: column;
+  justify-content: stretch;
+  background-color: #fff;
+  color: #344563;
+  padding: 6%;
+  width: 100%;
   height: 100vh;
 }
 
-.show-menu {
+.showMenu {
   display: block;
 }
 
-#mobile-menu a {
+#mobileMenu a {
   display: flex;
   text-decoration: none;
   font-size: 32px;
