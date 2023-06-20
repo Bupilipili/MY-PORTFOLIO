@@ -28,7 +28,7 @@ nav {
 .desktop-nav {
   display: flex;
   display: none;
-  position: absolute;
+  position: fixed;
   left: 0;
   top: 0;
   width: 100%;
@@ -47,6 +47,16 @@ nav {
   align-self: flex-end;
   padding-right: 38px;
   cursor: pointer;
+}
+
+#close_menu:hover {
+  opacity: 0.5;
+  transition: all 0.6s;
+}
+
+.desktop-nav li a:hover {
+  color: #36b37f;
+  transition: all 0.6s;
 }
 
 .desktop-nav li {
