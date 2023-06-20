@@ -1,3 +1,5 @@
+html { scroll-behavior: smooth; }
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -25,15 +27,15 @@ nav {
   cursor: pointer;
 }
 
-.desktop-nav {
+.mobile-nav {
   display: flex;
   display: none;
-  position: absolute;
+  position: fixed;
   left: 0;
   top: 0;
   width: 100%;
   background-color: #fff;
-  height: 718px;
+  height: 100vh;
   z-index: 99;
   padding-top: 1em;
   justify-content: flex-start;
@@ -41,7 +43,7 @@ nav {
   align-items: flex-start;
 }
 
-.desktop-nav > #close_menu {
+.mobile-nav > #close_menu {
   font-size: 24px;
   color: #67798e;
   align-self: flex-end;
@@ -49,16 +51,30 @@ nav {
   cursor: pointer;
 }
 
-.desktop-nav li {
+#close_menu:hover {
+  opacity: 0.5;
+  transition: all 0.6s;
+}
+
+.mobile-nav a {
+  text-decoration: none;
+  color: #3a4a42;
+  font-size: 32px;
+}
+
+.mobile-nav li a:hover {
+  color: #36b37f;
+  transition: all 0.6s;
+}
+
+.mobile-nav li {
   margin-bottom: 40px;
   list-style: none;
   padding-left: 28px;
 }
 
-.desktop-nav a {
-  text-decoration: none;
-  color: #3a4a42;
-  font-size: 32px;
+.desktop-nav {
+  display: none;
 }
 
 .content {
@@ -457,14 +473,14 @@ textarea {
   .desktop-nav {
     display: flex;
     background-color: transparent;
-    top: -650px;
     width: max-content;
     margin: 0 0;
-    position: absolute;
     flex-direction: row;
     justify-content: center;
     align-items: flex-end;
-    padding: 0 0 0 40%;
+    list-style: none;
+    padding-bottom: 230px;
+    gap: 24px;
   }
 
   #close_menu {
