@@ -54,6 +54,12 @@ nav {
   transition: all 0.6s;
 }
 
+.desktop-nav a {
+  text-decoration: none;
+  color: #3a4a42;
+  font-size: 32px;
+}
+
 .desktop-nav li a:hover {
   color: #36b37f;
   transition: all 0.6s;
@@ -63,12 +69,6 @@ nav {
   margin-bottom: 40px;
   list-style: none;
   padding-left: 28px;
-}
-
-.desktop-nav a {
-  text-decoration: none;
-  color: #3a4a42;
-  font-size: 32px;
 }
 
 .content {
