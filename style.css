@@ -25,13 +25,9 @@ nav {
   cursor: pointer;
 }
 
-.heading-desktop {
-  display: none;
-}
-
 .desktop-nav {
   display: flex;
-  visibility: hidden;
+  display: none;
   position: absolute;
   left: 0;
   top: 0;
@@ -385,7 +381,7 @@ textarea {
   color: #fff;
   padding: 12px;
   border-radius: 4px;
-  margin: 0 100px 0 100px;
+  margin: 0 30% 0 30%;
   border: 0;
   font-weight: 500;
   font-size: 17px;
@@ -440,6 +436,12 @@ textarea {
   margin-bottom: 5px;
 }
 
+/* media screen and (min-width: 1440px) {
+  .desktop-nav {
+    padding: 0 0 0 40%;
+  }
+*/
+
 @media screen and (min-width: 768px) {
   body {
     font-family: 'Inter', sans-serif;
@@ -448,15 +450,29 @@ textarea {
     overflow-x: hidden;
   }
 
-  #nav-bar {
-    display: none;
+  nav {
+    padding: 0%;
   }
 
   .desktop-nav {
     display: flex;
-    list-style: none;
-    gap: 36px;
-    padding-bottom: 13.87rem;
+    background-color: transparent;
+    top: -650px;
+    width: max-content;
+    margin: 0 0;
+    position: absolute;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-end;
+    padding: 0 0 0 40%;
+  }
+
+  #close_menu {
+    display: none;
+  }
+
+  #menu {
+    display: none;
   }
 
   .nav-items a {
