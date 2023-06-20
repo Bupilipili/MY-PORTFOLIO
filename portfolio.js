@@ -3,9 +3,13 @@ const closeMenu = document.getElementById('close_menu');
 const navItems = document.querySelector('.desktop-nav');
 
 openMenu.addEventListener('click', () => {
-  navItems.style.visibility = 'visible';
+  navItems.style.display = 'flex';
 });
 
 closeMenu.addEventListener('click', () => {
-  navItems.style.visibility = 'hidden';
+  navItems.style.display = 'none';
+});
+
+navItems.addEventListener('click', () => {
+  navItems.style.display = 'none';
 });
