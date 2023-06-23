@@ -281,6 +281,14 @@ nav {
   display: none;
 }
 
+.pop-icon1 {
+  cursor: pointer;
+  display: block;
+  position: relative;
+  width: 31px;
+  height: 34px;
+}
+
 .pop-word2 {
   display: none;
 }
