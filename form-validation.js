@@ -7,11 +7,5 @@ form.addEventListener('submit', (event) => {
     form.submit();
   } else {
     errorMessage.style.display = 'block';
-    errorMessage.style.height = '30px';
-    errorMessage.style.width = 'fit-content';
-    errorMessage.style.background = '#FFD600';
-    errorMessage.style.borderRadius = '5px';
-    errorMessage.style.alignSelf = 'center';
-    errorMessage.style.padding = '6px';
   }
 });
