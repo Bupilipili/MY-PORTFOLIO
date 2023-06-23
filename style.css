@@ -579,7 +579,7 @@ textarea {
 @media screen and (min-width: 768px) {
   body {
     font-family: 'Inter', sans-serif;
-    width: 100%;
+    width: fit-content;
     height: 100vh;
     overflow-x: hidden;
   }
@@ -1011,7 +1011,7 @@ textarea {
     left: 50%;
     transform: translate(-50%, -50%);
     border-radius: 8px;
-    background-color: rgba(193, 199, 208, 0.3);
+    background-color: rgba(193, 199, 208, 0.2);
     backdrop-filter: blur(10px);
     height: 100%;
     justify-content: center;
