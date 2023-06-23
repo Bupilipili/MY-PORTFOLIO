@@ -285,8 +285,10 @@ nav {
   cursor: pointer;
   display: block;
   position: relative;
-  width: 31px;
+  width: 25px;
   height: 34px;
+  left: 47%;
+  padding-bottom: 7px;
 }
 
 .pop-word2 {
