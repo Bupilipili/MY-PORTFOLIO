@@ -6,7 +6,7 @@ const projectsarray = [
        technologies: [ 'Ruby on Rails','CSS','Javascript','HTML'],
        Keycomponents: ['Codekit','GitHub','JavaScript','Bootstrap','Terminal','Codepen'],
        popButton: 'See Project',
-       liveVersion: '#',
+       liveVersion: 'https://bupilipili.github.io/MY-PORTFOLIO/',
        sourceLink: 'https://github.com/Bupilipili/MY-PORTFOLIO',
     },
     {
@@ -16,7 +16,7 @@ const projectsarray = [
        technologies: [ 'Ruby on Rails','CSS','Javascript','HTML'],
        Keycomponents: ['Codekit','GitHub','JavaScript','Bootstrap','Terminal','Codepen'],
        popButton: 'See Project',
-       liveVersion: '#',
+       liveVersion: 'https://bupilipili.github.io/MY-PORTFOLIO/',
        sourceLink: 'https://github.com/Bupilipili/MY-PORTFOLIO',
      },
      {
@@ -26,7 +26,7 @@ const projectsarray = [
        technologies: [ 'Ruby on Rails','CSS','Javascript','HTML'],
        Keycomponents: ['Codekit','GitHub','JavaScript','Bootstrap','Terminal','Codepen'],
        popButton: 'See Project',
-       liveVersion: '#',
+       liveVersion: 'https://bupilipili.github.io/MY-PORTFOLIO/',
        sourceLink: 'https://github.com/Bupilipili/MY-PORTFOLIO',
      },
      {Name: ['Multi-Post Stories Gain+Glory','Keeping track of hundreds of components'],
@@ -35,7 +35,7 @@ const projectsarray = [
      technologies: [ 'Ruby on Rails','CSS','Javascript','HTML'],
      Keycomponents: ['Codekit','GitHub','JavaScript','Bootstrap','Terminal','Codepen'],
      popButton: 'See Project',
-     liveVersion: '#',
+     liveVersion: 'https://bupilipili.github.io/MY-PORTFOLIO/',
      sourceLink: 'https://github.com/Bupilipili/MY-PORTFOLIO',
      },
      {
@@ -45,7 +45,7 @@ const projectsarray = [
       technologies: [ 'Ruby on Rails','CSS','Javascript','HTML'],
       Keycomponents: ['Codekit','GitHub','JavaScript','Bootstrap','Terminal','Codepen'],
       popButton: 'See Project',
-      liveVersion: '#',
+      liveVersion: 'https://bupilipili.github.io/MY-PORTFOLIO/',
       sourceLink: 'https://github.com/Bupilipili/MY-PORTFOLIO',
      },
      {
@@ -55,7 +55,7 @@ const projectsarray = [
        technologies: [ 'Ruby on Rails','CSS','Javascript','HTML'],
        Keycomponents: ['Codekit','GitHub','JavaScript','Bootstrap','Terminal','Codepen'],
        popButton: 'See Project',
-       liveVersion: '#',
+       liveVersion: 'https://bupilipili.github.io/MY-PORTFOLIO/',
        sourceLink: 'https://github.com/Bupilipili/MY-PORTFOLIO',
      },
    ];
