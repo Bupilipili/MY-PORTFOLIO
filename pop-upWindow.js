@@ -122,7 +122,6 @@ const projectsarray = [
   <li class="item3x">${projectsarray[cardIndex].Keycomponents[5]}</li>
   </ul>
   </div>
-  <<<<<<< HEAD
   <div class="button-spacingx">
   <a href="${projectsarray[cardIndex].liveVersion}" class="item8x"><p>See live</p><img src="${projectsarray[cardIndex].featuredimages[2]}"></a>
   <a href="${projectsarray[cardIndex].sourceLink}" class="item8x"><p>See source</p><img src="${projectsarray[cardIndex].featuredimages[3]}"></a>
@@ -142,7 +141,8 @@ const projectsarray = [
       const closex = document.querySelector('.pop-icon');
       closex.addEventListener('click', () => {
         projectPopup.style.visibility = 'hidden';
-        document.querySelector('body').style.overflow = 'scroll';
+        document.querySelector('body').style.overflow = 'auto';
+        location.reload();
       });
     });
 });
