@@ -93,13 +93,16 @@ const projectsarray = [
       const cardIndex = buttonIndex;
       projectPopup.innerHTML = `
       <div class="pop">
-      <img class="image-pop" src="${projectsarray[cardIndex].featuredimages[1]}">
+      <img class="pop-icon1" src="${projectsarray[cardIndex].featuredimages[4]}">
+      <img class="image-pop" src="${projectsarray[cardIndex].featuredimages[0]}">
+      <div>
       <p class="pop-word">${projectsarray[cardIndex].Name[1]}</p>
       <ul class="pop-flexbox">
       <li class="item3">${projectsarray[cardIndex].technologies[0]}</li>
       <li class="item3">${projectsarray[cardIndex].technologies[1]}</li>
       <li class="item3">${projectsarray[cardIndex].technologies[2]}</li>
       </ul>
+      </div>
   <p class="lorem">${projectsarray[cardIndex].description[0]}</p>
     <p class="lorem">${projectsarray[cardIndex].description[0]}</p>
   <div class="button-spacing">
@@ -133,7 +136,7 @@ const projectsarray = [
       `;
       document.querySelector('body').style.overflow = 'hidden';
       projectPopup.style.visibility = 'visible';
-      const close = document.querySelector('.image-pop');
+      const close = document.querySelector('.pop-icon1');
       close.addEventListener('click', () => {
         projectPopup.style.visibility = 'hidden';
         document.querySelector('body').style.overflow = 'scroll';
