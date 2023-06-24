@@ -60,34 +60,30 @@ const projectsarray = [
     sourceLink: 'https://github.com/Bupilipili/MY-PORTFOLIO',
   },
 ];
-  function createProjectList() {
-     const projects = document.querySelector('.main-container');
-     for (let i = 0; i < projectsarray.length; i += 1) {
-       const card = document.createElement('div');
-        card.classList.add('grid-container');
-        card.innerHTML = `
-        <div class="item1"></div>
-        <div class="flex">
-        <h2 class="item2">${projectsarray[i].Name[0]}</h2>
-        <ul class="flexbox">
-        <li class="item3">${projectsarray[i].technologies[0]}</li>
-        <li class="item3">${projectsarray[i].technologies[1]}</li>
-        <li class="item3">${projectsarray[i].technologies[2]}</li>
-        <li class="item3">${projectsarray[i].technologies[3]}</li>
-        </ul>
-        <button class="item7">${projectsarray[i].popButton}</button>
-        </div>
-        `;
-        projects.appendChild(card);
-     }
+function createProjectList() {
+  const projects = document.querySelector('.main-container');
+  for (let i = 0; i < projectsarray.length; i += 1) {
+    const card = document.createElement('div');
+    card.classList.add('grid-container');
+    card.innerHTML = `
+    <div class="item1"></div>
+    <div class="flex">
+    <h2 class="item2">${projectsarray[i].Name[0]}</h2>
+    <ul class="flexbox">
+    <li class="item3">${projectsarray[i].technologies[0]}</li>
+    <li class="item3">${projectsarray[i].technologies[1]}</li>
+    <li class="item3">${projectsarray[i].technologies[2]}</li>
+    <li class="item3">${projectsarray[i].technologies[3]}</li>
+    </ul>
+    <button class="item7">${projectsarray[i].popButton}</button>
+    </div>
+    `;
+    projects.appendChild(card);
   }
-  createProjectList();
-  
-  //mobile-pop-window
-  
+}
+createProjectList();
   const projectPopup = document.querySelector('.Main-pop');
   const popButton = document.querySelectorAll('.item7');
-  
   popButton.forEach((button, buttonIndex) => {
     button.addEventListener('click', () => {
       const cardIndex = buttonIndex;
@@ -132,16 +128,15 @@ const projectsarray = [
           </div>
           <p class="lorem2">${projectsarray[cardIndex].description[1]}</p>
           </div>
-  
         `;
-      document.querySelector('body').style.overflow = 'hidden';
-      projectPopup.style.visibility = 'visible';
-      const close = document.querySelector('.pop-icon1');
-      close.addEventListener('click', () => {
-      projectPopup.style.visibility = 'hidden';
-      document.querySelector('body').style.overflow = 'scroll';
-      });
-      const closex = document.querySelector('.pop-icon');
+    document.querySelector('body').style.overflow = 'hidden';
+    projectPopup.style.visibility = 'visible';
+    const close = document.querySelector('.pop-icon1');
+    close.addEventListener('click', () => {
+    projectPopup.style.visibility = 'hidden';
+    document.querySelector('body').style.overflow = 'scroll';
+    });
+    const closex = document.querySelector('.pop-icon');
       closex.addEventListener('click', () => {
         projectPopup.style.visibility = 'hidden';
         document.querySelector('body').style.overflow = 'auto';
