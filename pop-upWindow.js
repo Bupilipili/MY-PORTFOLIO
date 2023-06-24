@@ -82,12 +82,12 @@ function createProjectList() {
   }
 }
 createProjectList();
-  const projectPopup = document.querySelector('.Main-pop');
-  const popButton = document.querySelectorAll('.item7');
-  popButton.forEach((button, buttonIndex) => {
-    button.addEventListener('click', () => {
-      const cardIndex = buttonIndex;
-       projectPopup.innerHTML = `
+const projectPopup = document.querySelector('.Main-pop');
+const popButton = document.querySelectorAll('.item7');
+popButton.forEach((button, buttonIndex) => {
+  button.addEventListener('click', () => {
+    const cardIndex = buttonIndex;
+    projectPopup.innerHTML = `
           <div class="pop">
           <img class="pop-icon1" src="${projectsarray[cardIndex].featuredimages[4]}">
           <img class="image-pop" src="${projectsarray[cardIndex].featuredimages[0]}">
@@ -133,14 +133,14 @@ createProjectList();
     projectPopup.style.visibility = 'visible';
     const close = document.querySelector('.pop-icon1');
     close.addEventListener('click', () => {
-    projectPopup.style.visibility = 'hidden';
+      projectPopup.style.visibility = 'hidden';
     document.querySelector('body').style.overflow = 'scroll';
     });
     const closex = document.querySelector('.pop-icon');
-      closex.addEventListener('click', () => {
-        projectPopup.style.visibility = 'hidden';
-        document.querySelector('body').style.overflow = 'auto';
-        location.reload();
-      });
+    closex.addEventListener('click', () => {
+      projectPopup.style.visibility = 'hidden';
+      document.querySelector('body').style.overflow = 'auto';
+      location.reload();
     });
+  });
 });
