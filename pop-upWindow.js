@@ -140,6 +140,8 @@ popButton.forEach((button, buttonIndex) => {
     closex.addEventListener('click', () => {
       projectPopup.style.visibility = 'hidden';
       document.querySelector('body').style.overflow = 'auto';
+      // eslint-disable-next-line no-restricted-globals
+      location.reload();
     });
   });
 });
