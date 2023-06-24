@@ -134,13 +134,13 @@ popButton.forEach((button, buttonIndex) => {
     const close = document.querySelector('.pop-icon1');
     close.addEventListener('click', () => {
       projectPopup.style.visibility = 'hidden';
-    document.querySelector('body').style.overflow = 'scroll';
+      document.querySelector('body').style.overflow = 'scroll';
     });
     const closex = document.querySelector('.pop-icon');
     closex.addEventListener('click', () => {
       projectPopup.style.visibility = 'hidden';
       document.querySelector('body').style.overflow = 'auto';
-      location.reload();
+      history.go(0);
     });
   });
 });
