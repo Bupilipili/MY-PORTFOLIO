@@ -13,4 +13,3 @@ closeMenu.addEventListener('click', () => {
 navItems.addEventListener('click', () => {
   navItems.style.display = 'none';
 });
-
