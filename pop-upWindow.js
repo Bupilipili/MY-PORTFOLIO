@@ -1,9 +1,8 @@
-
 const projectsarray = [
     {
        Name: ['Multi-Post Stories Gain+Glory','Keeping track of hundreds of components'],
-       description:  ["Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s.","Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea"],
-       featuredimages:['./features/images/pop-desktop.svg','./features/images/pop-mobile.svg','./features/icons/see live icon.svg','./features/icons/github-white.svg','./features/icons/X-button.svg'],
+       description: ["Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s.","Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea"],
+       featuredimages: ['./features/images/pop-desktop.svg','./features/images/pop-mobile.svg','./features/icons/see live icon.svg','./features/icons/github-white.svg','./features/icons/X-button.svg'],
        technologies: [ 'Ruby on Rails','CSS','Javascript','HTML'],
        Keycomponents: ['Codekit','GitHub','JavaScript','Bootstrap','Terminal','Codepen'],
        popButton: 'See Project',
@@ -12,9 +11,9 @@ const projectsarray = [
     },
     {
       Name: ['Multi-Post Stories Gain+Glory','Keeping track of hundreds of components'],
-       description:  ["Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s.","Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea"],
-       featuredimages:['./features/images/pop-desktop.svg','./features/images/pop-mobile.svg','./features/icons/see live icon.svg','./features/icons/github-white.svg','./features/icons/X-button.svg'],
-       technologies: [ 'Ruby on Rails','CSS','Javascript','HTML'],
+       description: ["Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s.","Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea"],
+       featuredimages: ['./features/images/pop-desktop.svg','./features/images/pop-mobile.svg','./features/icons/see live icon.svg','./features/icons/github-white.svg','./features/icons/X-button.svg'],
+       technologies: ['Ruby on Rails','CSS','Javascript','HTML'],
        Keycomponents: ['Codekit','GitHub','JavaScript','Bootstrap','Terminal','Codepen'],
        popButton: 'See Project',
        liveVersion: 'https://bupilipili.github.io/MY-PORTFOLIO/',
@@ -22,8 +21,8 @@ const projectsarray = [
      },
      {
       Name: ['Multi-Post Stories Gain+Glory','Keeping track of hundreds of components'],
-       description:  ["Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s.","Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea"],
-       featuredimages:['./features/images/pop-desktop.svg','./features/images/pop-mobile.svg','./features/icons/see live icon.svg','./features/icons/github-white.svg','./features/icons/X-button.svg'],
+       description: ["Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s.","Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea"],
+       featuredimages: ['./features/images/pop-desktop.svg','./features/images/pop-mobile.svg','./features/icons/see live icon.svg','./features/icons/github-white.svg','./features/icons/X-button.svg'],
        technologies: [ 'Ruby on Rails','CSS','Javascript','HTML'],
        Keycomponents: ['Codekit','GitHub','JavaScript','Bootstrap','Terminal','Codepen'],
        popButton: 'See Project',
@@ -31,8 +30,8 @@ const projectsarray = [
        sourceLink: 'https://github.com/Bupilipili/MY-PORTFOLIO',
      },
      {Name: ['Multi-Post Stories Gain+Glory','Keeping track of hundreds of components'],
-     description:  ["Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s.","Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea"],
-     featuredimages:['./features/images/pop-desktop.svg','./features/images/pop-mobile.svg','./features/icons/see live icon.svg','./features/icons/github-white.svg','./features/icons/X-button.svg'],
+     description: ["Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s.","Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea"],
+     featuredimages: ['./features/images/pop-desktop.svg','./features/images/pop-mobile.svg','./features/icons/see live icon.svg','./features/icons/github-white.svg','./features/icons/X-button.svg'],
      technologies: [ 'Ruby on Rails','CSS','Javascript','HTML'],
      Keycomponents: ['Codekit','GitHub','JavaScript','Bootstrap','Terminal','Codepen'],
      popButton: 'See Project',
@@ -41,8 +40,8 @@ const projectsarray = [
      },
      {
       Name: ['Multi-Post Stories Gain+Glory','Keeping track of hundreds of components'],
-      description:  ["Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s.","Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea"],
-      featuredimages:['./features/images/pop-desktop.svg','./features/images/pop-mobile.svg','./features/icons/see live icon.svg','./features/icons/github-white.svg','./features/icons/X-button.svg'],
+      description: ["Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s.","Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea"],
+      featuredimages: ['./features/images/pop-desktop.svg','./features/images/pop-mobile.svg','./features/icons/see live icon.svg','./features/icons/github-white.svg','./features/icons/X-button.svg'],
       technologies: [ 'Ruby on Rails','CSS','Javascript','HTML'],
       Keycomponents: ['Codekit','GitHub','JavaScript','Bootstrap','Terminal','Codepen'],
       popButton: 'See Project',
@@ -52,7 +51,7 @@ const projectsarray = [
      {
        Name: ['Multi-Post Stories Gain+Glory','Keeping track of hundreds of components'],
        description: ["Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s.","Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea"],
-       featuredimages:['./features/images/pop-desktop.svg','./features/images/pop-mobile.svg','./features/icons/see live icon.svg','./features/icons/github-white.svg','./features/icons/X-button.svg'],
+       featuredimages: ['./features/images/pop-desktop.svg','./features/images/pop-mobile.svg','./features/icons/see live icon.svg','./features/icons/github-white.svg','./features/icons/X-button.svg'],
        technologies: [ 'Ruby on Rails','CSS','Javascript','HTML'],
        Keycomponents: ['Codekit','GitHub','JavaScript','Bootstrap','Terminal','Codepen'],
        popButton: 'See Project',
