@@ -485,11 +485,25 @@ nav {
   color: #172b4d;
 }
 
-.text-placeholder::placeholder {
+.name-input::placeholder {
   font-style: italic;
   font-weight: 400;
   font-size: 15px;
   color: #6b778c;
+}
+
+.email-input::placeholder {
+  font-style: italic;
+  font-weight: 400;
+  font-size: 15px;
+  color: #6b778c;
+}
+
+.error-message {
+  font-size: 100%;
+  color: red;
+  display: none;
+  padding: 4%;
 }
 
 input {

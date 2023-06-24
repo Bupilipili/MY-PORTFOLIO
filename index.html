@@ -126,15 +126,18 @@
         <p id="bio">I'm always interested in hearing about new projects, so if you'd like to chat please get in touch.</p>
      <form action="https://formspree.io/f/xoqzonzv" method="post" class="form">
        <div class="flex6">
-         <input type="text" name="name" placeholder="Full name" maxlength="30" class="text-placeholder" required>
+         <input type="text" name="name" placeholder="Full name" maxlength="30" class="name-input" required>
        </div>
         <div class="flex6">
-          <input type="email" name="email" placeholder="Email address" class="text-placeholder" required>
+          <input type="email" name="email" placeholder="Email address" class="email-input" onkeydown="validation()" required>
         </div>
         <div class="flex7">
          <textarea name="message" placeholder="Hey I’d like to connect to..." maxlength="500" class="style-placeholder"></textarea>
          <input type="submit" name="submit" class="touch" value="Get in touch">
-        </div> 
+        </div>
+        <div>
+         <p class="error-message">'Error'...Your email must be in lowercase</p> 
+        </div>
      </form>
       <p id="my-email">bupepperleather@gmail.com</p>
     </div>
@@ -150,6 +153,7 @@
          <div class="mini-bar"></div>
          </div>
    </footer>
+   <script src="form-validation.js"></script>
    <script src="pop-upWindow.js"></script>
    <script src="mobileMenu.js"></script>
  </body>
