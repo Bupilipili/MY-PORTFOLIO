@@ -21,7 +21,7 @@ if (localStorage.getItem('formData')) {
 UserName.addEventListener('input', () => {
   formData.FullName = UserName.value;
   localStorage.setItem('formData', JSON.stringify(formData));
-}); 
+});
 UserEmail.addEventListener('input', () => {
   formData.Email = UserEmail.value;
   localStorage.setItem('formData', JSON.stringify(formData));
