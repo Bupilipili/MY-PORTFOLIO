@@ -1,9 +1,9 @@
 const projectsarray = [
   {
-    Name: ['Multi-Post Stories Gain+Glory', 'Keeping track of hundreds of components'],
-    description: ["Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s.", "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea"],
-    featuredimages: ['./features/images/pop-desktop.svg', './features/images/pop-mobile.svg', './features/icons/see live icon.svg', './features/icons/github-white.svg', './features/icons/X-button.svg'],
-    technologies: ['Ruby on Rails', 'CSS', 'Javascript', 'HTML'],
+    Name: ['Focus Gender Equality Fellowship 2023', 'Focus Gender Equality Fellowship 2023'],
+    description: ["The FGE Fellowship 2023 is an hypothetical event which show cases the use of different Web technologies such as HTML5, CSS3 and Javascript with also displaying the website which is responsive to all screen sizes.", "The FGE Fellowship 2023 is an hypothetical event which show cases the use of different Web technologies such as HTML5, CSS3 and Javascript with also displaying the website which is responsive to all screen sizes."],
+    featuredimages: ['./features/images/Desk-FGE.png', './features/images/Mobi-FGE.jpeg', './features/icons/see live icon.svg', './features/icons/github-white.svg', './features/icons/X-button.svg'],
+    technologies: ['CSS', 'Javascript', 'HTML', 'SASS'],
     Keycomponents: ['Codekit', 'GitHub', 'JavaScript', 'Bootstrap', 'Terminal', 'Codepen'],
     popButton: 'See Project',
     liveVersion: 'https://bupilipili.github.io/MY-PORTFOLIO/',
@@ -90,7 +90,7 @@ popButton.forEach((button, buttonIndex) => {
     projectPopup.innerHTML = `
           <div class="pop">
           <img class="pop-icon1" src="${projectsarray[cardIndex].featuredimages[4]}">
-          <img class="image-pop" src="${projectsarray[cardIndex].featuredimages[0]}">
+          <img class="image-pop" src="${projectsarray[cardIndex].featuredimages[1]}">
           <div>
           <p class="pop-word">${projectsarray[cardIndex].Name[1]}</p>
           <ul class="pop-flexbox">
@@ -99,7 +99,6 @@ popButton.forEach((button, buttonIndex) => {
           <li class="item3">${projectsarray[cardIndex].technologies[2]}</li>
           </ul>
           </div>
-          <p class="lorem">${projectsarray[cardIndex].description[0]}</p>
           <p class="lorem">${projectsarray[cardIndex].description[0]}</p>
           <div class="button-spacing">
           <a href="${projectsarray[cardIndex].liveVersion}" class="item8"><p>See live</p><img src="${projectsarray[cardIndex].featuredimages[2]}"></a>
