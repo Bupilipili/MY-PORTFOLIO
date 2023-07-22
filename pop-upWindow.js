@@ -3,11 +3,11 @@ const projectsarray = [
     Name: ['Focus Gender Equality Fellowship 2023', 'Focus Gender Equality Fellowship 2023'],
     description: ["The FGE Fellowship 2023 is an hypothetical event which show cases the use of different Web technologies such as HTML5, CSS3 and Javascript with also displaying the website which is responsive to all screen sizes.", "The FGE Fellowship 2023 is an hypothetical event which show cases the use of different Web technologies such as HTML5, CSS3 and Javascript with also displaying the website which is responsive to all screen sizes."],
     featuredimages: ['./features/images/Desk-FGE.png', './features/images/Mobi-FGE.jpeg', './features/icons/see live icon.svg', './features/icons/github-white.svg', './features/icons/X-button.svg'],
-    technologies: ['CSS', 'Javascript', 'HTML', 'SASS'],
-    Keycomponents: ['Codekit', 'GitHub', 'JavaScript', 'Bootstrap', 'Terminal', 'Codepen'],
+    technologies: ['CSS', 'Javascript', 'HTML'],
+    Keycomponents: ['CSS', 'JavaScript', 'HTML'],
     popButton: 'See Project',
-    liveVersion: 'https://bupilipili.github.io/MY-PORTFOLIO/',
-    sourceLink: 'https://github.com/Bupilipili/MY-PORTFOLIO',
+    liveVersion: 'https://bupilipili.github.io/First-Capstone-Project/',
+    sourceLink: 'https://github.com/Bupilipili/First-Capstone-Project.git',
   },
   {
     Name: ['Multi-Post Stories Gain+Glory', 'Keeping track of hundreds of components'],
@@ -73,7 +73,6 @@ function createProjectList() {
     <li class="item3">${projectsarray[i].technologies[0]}</li>
     <li class="item3">${projectsarray[i].technologies[1]}</li>
     <li class="item3">${projectsarray[i].technologies[2]}</li>
-    <li class="item3">${projectsarray[i].technologies[3]}</li>
     </ul>
     <button class="item7">${projectsarray[i].popButton}</button>
     </div>
@@ -115,9 +114,6 @@ popButton.forEach((button, buttonIndex) => {
           <li class="item3x">${projectsarray[cardIndex].Keycomponents[0]}</li>
           <li class="item3x">${projectsarray[cardIndex].Keycomponents[1]}</li>
           <li class="item3x">${projectsarray[cardIndex].Keycomponents[2]}</li>
-          <li class="item3x">${projectsarray[cardIndex].Keycomponents[3]}</li>
-          <li class="item3x">${projectsarray[cardIndex].Keycomponents[4]}</li>
-          <li class="item3x">${projectsarray[cardIndex].Keycomponents[5]}</li>
           </ul>
           </div>
           <div class="button-spacingx">
