@@ -1,16 +1,29 @@
 const projectsarray = [
   {
     Name: ['Focus Gender Equality Fellowship 2023', 'Focus Gender Equality Fellowship 2023'],
+    backgroundImages: ['./features/images/FGE.png'],
     description: ["The FGE Fellowship 2023 is an hypothetical event which show cases the use of different Web technologies such as HTML5, CSS3 and Javascript with also displaying the website which is responsive to all screen sizes.", "The FGE Fellowship 2023 is an hypothetical event which show cases the use of different Web technologies such as HTML5, CSS3 and Javascript with also displaying the website which is responsive to all screen sizes."],
     featuredimages: ['./features/images/Desk-FGE.png', './features/images/Mobi-FGE.jpeg', './features/icons/see live icon.svg', './features/icons/github-white.svg', './features/icons/X-button.svg'],
     technologies: ['CSS', 'Javascript', 'HTML'],
-    Keycomponents: ['CSS', 'JavaScript', 'HTML'],
+    Keycomponents: ['CSS', 'JavaScript', 'HTML', 'GitHub'],
     popButton: 'See Project',
     liveVersion: 'https://bupilipili.github.io/First-Capstone-Project/',
     sourceLink: 'https://github.com/Bupilipili/First-Capstone-Project.git',
   },
   {
     Name: ['Multi-Post Stories Gain+Glory', 'Keeping track of hundreds of components'],
+    backgroundImages: ['./features/images/'],
+    description: ["Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s.", "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea"],
+    featuredimages: ['./features/images/pop-desktop.svg', './features/images/pop-mobile.svg', './features/icons/see live icon.svg', './features/icons/github-white.svg', './features/icons/X-button.svg'],
+    technologies: ['Ruby on Rails', 'CSS', 'Javascript', 'HTML'],
+    Keycomponents: ['Ruby on Rails', 'CSS','GitHub', 'JavaScript'],
+    popButton: 'See Project',
+    liveVersion: 'https://bupilipili.github.io/MY-PORTFOLIO/',
+    sourceLink: 'https://github.com/Bupilipili/MY-PORTFOLIO',
+  },
+  {
+    Name: ['Multi-Post Stories Gain+Glory', 'Keeping track of hundreds of components'],
+    backgroundImages: ['./features/images/'],
     description: ["Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s.", "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea"],
     featuredimages: ['./features/images/pop-desktop.svg', './features/images/pop-mobile.svg', './features/icons/see live icon.svg', './features/icons/github-white.svg', './features/icons/X-button.svg'],
     technologies: ['Ruby on Rails', 'CSS', 'Javascript', 'HTML'],
@@ -21,6 +34,7 @@ const projectsarray = [
   },
   {
     Name: ['Multi-Post Stories Gain+Glory', 'Keeping track of hundreds of components'],
+    backgroundImages: ['./features/images/'],
     description: ["Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s.", "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea"],
     featuredimages: ['./features/images/pop-desktop.svg', './features/images/pop-mobile.svg', './features/icons/see live icon.svg', './features/icons/github-white.svg', './features/icons/X-button.svg'],
     technologies: ['Ruby on Rails', 'CSS', 'Javascript', 'HTML'],
@@ -31,6 +45,7 @@ const projectsarray = [
   },
   {
     Name: ['Multi-Post Stories Gain+Glory', 'Keeping track of hundreds of components'],
+    backgroundImages: ['./features/images/'],
     description: ["Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s.", "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea"],
     featuredimages: ['./features/images/pop-desktop.svg', './features/images/pop-mobile.svg', './features/icons/see live icon.svg', './features/icons/github-white.svg', './features/icons/X-button.svg'],
     technologies: ['Ruby on Rails', 'CSS', 'Javascript', 'HTML'],
@@ -41,16 +56,7 @@ const projectsarray = [
   },
   {
     Name: ['Multi-Post Stories Gain+Glory', 'Keeping track of hundreds of components'],
-    description: ["Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s.", "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea"],
-    featuredimages: ['./features/images/pop-desktop.svg', './features/images/pop-mobile.svg', './features/icons/see live icon.svg', './features/icons/github-white.svg', './features/icons/X-button.svg'],
-    technologies: ['Ruby on Rails', 'CSS', 'Javascript', 'HTML'],
-    Keycomponents: ['Codekit', 'GitHub', 'JavaScript', 'Bootstrap', 'Terminal', 'Codepen'],
-    popButton: 'See Project',
-    liveVersion: 'https://bupilipili.github.io/MY-PORTFOLIO/',
-    sourceLink: 'https://github.com/Bupilipili/MY-PORTFOLIO',
-  },
-  {
-    Name: ['Multi-Post Stories Gain+Glory', 'Keeping track of hundreds of components'],
+    backgroundImages: ['./features/images/'],
     description: ["Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s.", "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea"],
     featuredimages: ['./features/images/pop-desktop.svg', './features/images/pop-mobile.svg', './features/icons/see live icon.svg', './features/icons/github-white.svg', './features/icons/X-button.svg'],
     technologies: ['Ruby on Rails', 'CSS', 'Javascript', 'HTML'],
@@ -65,21 +71,24 @@ function createProjectList() {
   for (let i = 0; i < projectsarray.length; i += 1) {
     const card = document.createElement('div');
     card.classList.add('grid-container');
+    card.style.backgroundImage = `url('${projectsarray[i].backgroundImages[0]}')`;
+    
+    const technologiesList = projectsarray[i].technologies
+      .map(tech => `<li class="item3">${tech}</li>`)
+      .join('');
+
     card.innerHTML = `
-    <div class="item1"></div>
-    <div class="flex">
-    <h2 class="item2">${projectsarray[i].Name[0]}</h2>
-    <ul class="flexbox">
-    <li class="item3">${projectsarray[i].technologies[0]}</li>
-    <li class="item3">${projectsarray[i].technologies[1]}</li>
-    <li class="item3">${projectsarray[i].technologies[2]}</li>
-    </ul>
-    <button class="item7">${projectsarray[i].popButton}</button>
-    </div>
+      <div class="item1"></div>
+      <div class="flex">
+        <h2 class="item2">${projectsarray[i].Name[0]}</h2>
+        <ul class="flexbox">${technologiesList}</ul>
+        <button class="item7">${projectsarray[i].popButton}</button>
+      </div>
     `;
     projects.appendChild(card);
   }
 }
+
 createProjectList();
 const projectPopup = document.querySelector('.Main-pop');
 const popButton = document.querySelectorAll('.item7');
@@ -111,9 +120,7 @@ popButton.forEach((button, buttonIndex) => {
           <div>
           <p class="pop-word2">${projectsarray[cardIndex].Name[1]}</p>
           <ul class="pop-flexbox2">
-          <li class="item3x">${projectsarray[cardIndex].Keycomponents[0]}</li>
-          <li class="item3x">${projectsarray[cardIndex].Keycomponents[1]}</li>
-          <li class="item3x">${projectsarray[cardIndex].Keycomponents[2]}</li>
+          ${projectsarray[cardIndex].Keycomponents.map(component => `<li class="item3x">${component}</li>`).join('')}
           </ul>
           </div>
           <div class="button-spacingx">
