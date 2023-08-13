@@ -2,6 +2,7 @@ const projectsarray = [
   {
     Name: ['Focus Gender Equality Fellowship 2023', 'Focus Gender Equality Fellowship 2023'],
     backgroundImages: ['./features/images/FGE.png'],
+    backgroundColor: ['#e23531'],
     description: ["The FGE Fellowship 2023 is an hypothetical event which show cases the use of different Web technologies such as HTML5, CSS3 and Javascript with also displaying the website which is responsive to all screen sizes.", "The FGE Fellowship 2023 is an hypothetical event which show cases the use of different Web technologies such as HTML5, CSS3 and Javascript with also displaying the website which is responsive to all screen sizes."],
     featuredimages: ['./features/images/Desk-FGE.png', './features/images/Mobi-FGE.jpeg', './features/icons/see live icon.svg', './features/icons/github-white.svg', './features/icons/X-button.svg'],
     technologies: ['CSS', 'Javascript', 'HTML'],
@@ -13,6 +14,7 @@ const projectsarray = [
   {
     Name: ['Multi-Post Stories Gain+Glory', 'Keeping track of hundreds of components'],
     backgroundImages: ['./features/images/'],
+    backgroundColor: ['#f2f2f2'],
     description: ["Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s.", "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea"],
     featuredimages: ['./features/images/pop-desktop.svg', './features/images/pop-mobile.svg', './features/icons/see live icon.svg', './features/icons/github-white.svg', './features/icons/X-button.svg'],
     technologies: ['Ruby on Rails', 'CSS', 'Javascript', 'HTML'],
@@ -24,6 +26,7 @@ const projectsarray = [
   {
     Name: ['Multi-Post Stories Gain+Glory', 'Keeping track of hundreds of components'],
     backgroundImages: ['./features/images/'],
+    backgroundColor: ['#f2f2f2'],
     description: ["Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s.", "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea"],
     featuredimages: ['./features/images/pop-desktop.svg', './features/images/pop-mobile.svg', './features/icons/see live icon.svg', './features/icons/github-white.svg', './features/icons/X-button.svg'],
     technologies: ['Ruby on Rails', 'CSS', 'Javascript', 'HTML'],
@@ -35,6 +38,7 @@ const projectsarray = [
   {
     Name: ['Multi-Post Stories Gain+Glory', 'Keeping track of hundreds of components'],
     backgroundImages: ['./features/images/'],
+    backgroundColor: ['#f2f2f2'],
     description: ["Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s.", "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea"],
     featuredimages: ['./features/images/pop-desktop.svg', './features/images/pop-mobile.svg', './features/icons/see live icon.svg', './features/icons/github-white.svg', './features/icons/X-button.svg'],
     technologies: ['Ruby on Rails', 'CSS', 'Javascript', 'HTML'],
@@ -46,6 +50,7 @@ const projectsarray = [
   {
     Name: ['Multi-Post Stories Gain+Glory', 'Keeping track of hundreds of components'],
     backgroundImages: ['./features/images/'],
+    backgroundColor: ['#f2f2f2'],
     description: ["Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s.", "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea"],
     featuredimages: ['./features/images/pop-desktop.svg', './features/images/pop-mobile.svg', './features/icons/see live icon.svg', './features/icons/github-white.svg', './features/icons/X-button.svg'],
     technologies: ['Ruby on Rails', 'CSS', 'Javascript', 'HTML'],
@@ -57,6 +62,7 @@ const projectsarray = [
   {
     Name: ['Multi-Post Stories Gain+Glory', 'Keeping track of hundreds of components'],
     backgroundImages: ['./features/images/'],
+    backgroundColor: ['#f2f2f2'],
     description: ["Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s.", "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea"],
     featuredimages: ['./features/images/pop-desktop.svg', './features/images/pop-mobile.svg', './features/icons/see live icon.svg', './features/icons/github-white.svg', './features/icons/X-button.svg'],
     technologies: ['Ruby on Rails', 'CSS', 'Javascript', 'HTML'],
@@ -72,7 +78,8 @@ function createProjectList() {
     const card = document.createElement('div');
     card.classList.add('grid-container');
     card.style.backgroundImage = `url('${projectsarray[i].backgroundImages[0]}')`;
-    
+    card.style.backgroundColor = projectsarray[i].backgroundColor;
+
     const technologiesList = projectsarray[i].technologies
       .map(tech => `<li class="item3">${tech}</li>`)
       .join('');
