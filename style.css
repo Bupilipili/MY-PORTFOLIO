@@ -152,9 +152,9 @@ nav {
 .grid-container {
   display: grid;
   grid-template-columns: auto;
-  background-color: #ebf0ee;
   border-radius: 8px;
   background-size: contain;
+  background-repeat: no-repeat;
 }
 
 #img2 {
