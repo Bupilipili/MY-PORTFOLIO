@@ -1,10 +1,10 @@
 const projectsarray = [
   {
     Name: ['Focus Gender Equality Fellowship 2023', 'Focus Gender Equality Fellowship 2023'],
-    backgroundImages: ['./features/images/FGE.png'],
+    backgroundImages: ['./features/images/Desk-FGE.png'],
     backgroundColor: ['#e23531'],
     description: ["The FGE Fellowship 2023 is an hypothetical event which show cases the use of different Web technologies such as HTML5, CSS3 and Javascript with also displaying the website which is responsive to all screen sizes.", "The FGE Fellowship 2023 is an hypothetical event which show cases the use of different Web technologies such as HTML5, CSS3 and Javascript with also displaying the website which is responsive to all screen sizes."],
-    featuredimages: ['./features/images/Desk-FGE.png', './features/images/Mobi-FGE.jpeg', './features/icons/see live icon.svg', './features/icons/github-white.svg', './features/icons/X-button.svg'],
+    featuredimages: ['./features/images/Desk-FGE.png', './features/icons/see live icon.svg', './features/icons/github-white.svg', './features/icons/X-button.svg'],
     technologies: ['CSS', 'Javascript', 'HTML'],
     Keycomponents: ['CSS', 'JavaScript', 'HTML', 'GitHub'],
     popButton: 'See Project',
