@@ -1,10 +1,10 @@
 const projectsarray = [
   {
-    Name: ['Focus Gender Equality Fellowship 2023', 'Focus Gender Equality Fellowship 2023'],
-    backgroundImages: ['./features/images/Desk-FGE.png'],
+    Name: ['Focus Gender Equality Fellowship 2023'],
+    backgroundImages: ['./features/images/FGE.png'],
     backgroundColor: ['#e23531'],
     description: ["The FGE Fellowship 2023 is an hypothetical event which show cases the use of different Web technologies such as HTML5, CSS3 and Javascript with also displaying the website which is responsive to all screen sizes.", "The FGE Fellowship 2023 is an hypothetical event which show cases the use of different Web technologies such as HTML5, CSS3 and Javascript with also displaying the website which is responsive to all screen sizes."],
-    featuredimages: ['./features/images/Desk-FGE.png', './features/icons/see live icon.svg', './features/icons/github-white.svg', './features/icons/X-button.svg'],
+    featuredimages: ['./features/images/Desk-FGE.png', './features/images/Mobi-FGE.jpeg', './features/icons/see live icon.svg', './features/icons/github-white.svg', './features/icons/X-button.svg'],
     technologies: ['CSS', 'Javascript', 'HTML'],
     Keycomponents: ['CSS', 'JavaScript', 'HTML', 'GitHub'],
     popButton: 'See Project',
@@ -12,52 +12,52 @@ const projectsarray = [
     sourceLink: 'https://github.com/Bupilipili/First-Capstone-Project.git',
   },
   {
-    Name: ['Multi-Post Stories Gain+Glory', 'Keeping track of hundreds of components'],
-    backgroundImages: ['./features/images/'],
-    backgroundColor: ['#f2f2f2'],
-    description: ["Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s.", "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea"],
-    featuredimages: ['./features/images/pop-desktop.svg', './features/images/pop-mobile.svg', './features/icons/see live icon.svg', './features/icons/github-white.svg', './features/icons/X-button.svg'],
-    technologies: ['Ruby on Rails', 'CSS', 'Javascript', 'HTML'],
-    Keycomponents: ['Ruby on Rails', 'CSS','GitHub', 'JavaScript'],
+    Name: ['Bookstore Web Application'],
+    backgroundImages: ['./features/images/books.jpg'],
+    backgroundColor: ['#0E7F87'],
+    description: ["Bookstore is a user-friendly web application that utilizes an external API to enable easy addition and removal of books. This dynamic platform streamlines book management and offers a hassle-free way to maintain a personalized reading collection.", "Bookstore is a dynamic web application designed to simplify book management for users. It leverages an external API to seamlessly handle the process of adding and removing books. With an intuitive interface, users can effortlessly view their collection, add new books by inputting titles and authors, and remove books as desired. By utilizing the API, Bookstore optimizes data management, ensuring a smooth and organized experience for book enthusiasts."],
+    featuredimages: ['./features/images/booksdesk.png', './features/images/booksdesk.png', './features/icons/see live icon.svg', './features/icons/github-white.svg', './features/icons/X-button.svg'],
+    technologies: ['React', 'CSS', 'Redux', 'HTML'],
+    Keycomponents: ['React', 'CSS','GitHub', 'Redux'],
     popButton: 'See Project',
-    liveVersion: 'https://bupilipili.github.io/MY-PORTFOLIO/',
-    sourceLink: 'https://github.com/Bupilipili/MY-PORTFOLIO',
+    liveVersion: 'https://bookstore-001.netlify.app/',
+    sourceLink: 'https://github.com/Bupilipili/bookstore',
   },
   {
-    Name: ['Multi-Post Stories Gain+Glory', 'Keeping track of hundreds of components'],
-    backgroundImages: ['./features/images/'],
-    backgroundColor: ['#f2f2f2'],
-    description: ["Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s.", "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea"],
-    featuredimages: ['./features/images/pop-desktop.svg', './features/images/pop-mobile.svg', './features/icons/see live icon.svg', './features/icons/github-white.svg', './features/icons/X-button.svg'],
-    technologies: ['Ruby on Rails', 'CSS', 'Javascript', 'HTML'],
-    Keycomponents: ['Codekit', 'GitHub', 'JavaScript', 'Bootstrap', 'Terminal', 'Codepen'],
+    Name: ['Math Magicians Calculator'],
+    backgroundImages: ['./features/images/calculator.jpg'],
+    backgroundColor: ['#BA9C82'],
+    description: ["math-magicians-calculator is a web application which has a calculator together with quotes displayed by fetching data from an API.", "math-magicians-calculator is a web application which has a calculator together with quotes displayed by fetching data from an API."],
+    featuredimages: ['./features/images/calcupic.png', './features/images/calcupic.png', './features/icons/see live icon.svg', './features/icons/github-white.svg', './features/icons/X-button.svg'],
+    technologies: ['React', 'CSS', 'Jest', 'HTML'],
+    Keycomponents: ['CSS', 'GitHub', 'React', 'Jest', 'Terminal'],
     popButton: 'See Project',
-    liveVersion: 'https://bupilipili.github.io/MY-PORTFOLIO/',
-    sourceLink: 'https://github.com/Bupilipili/MY-PORTFOLIO',
+    liveVersion: 'https://math-magicians-0d5d3a.netlify.app/',
+    sourceLink: 'https://github.com/Bupilipili/math-magicians-calculator',
   },
   {
-    Name: ['Multi-Post Stories Gain+Glory', 'Keeping track of hundreds of components'],
-    backgroundImages: ['./features/images/'],
-    backgroundColor: ['#f2f2f2'],
-    description: ["Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s.", "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea"],
-    featuredimages: ['./features/images/pop-desktop.svg', './features/images/pop-mobile.svg', './features/icons/see live icon.svg', './features/icons/github-white.svg', './features/icons/X-button.svg'],
-    technologies: ['Ruby on Rails', 'CSS', 'Javascript', 'HTML'],
-    Keycomponents: ['Codekit', 'GitHub', 'JavaScript', 'Bootstrap', 'Terminal', 'Codepen'],
+    Name: ['LeaderBoard Web Application'],
+    backgroundImages: ['./features/images/Leaderboard.jpg'],
+    backgroundColor: ['#27546B'],
+    description: ["Leaderboard is a web application that uses API to display scores put by the users. So the user puts the name and score as input the submits it, this takes the data to the API and when the user presses 'Refresh' button the data is fetched from API and then displayed on the leaderboard.", "Leaderboard is a web application that uses API to display scores put by the users. So the user puts the name and score as input the submits it, this takes the data to the API and when the user presses 'Refresh' button the data is fetched from API and then displayed on the leaderboard."],
+    featuredimages: ['./features/images/LEAD.png', './features/images/LEAD.png', './features/icons/see live icon.svg', './features/icons/github-white.svg', './features/icons/X-button.svg'],
+    technologies: ['CSS', 'Javascript', 'HTML'],
+    Keycomponents: ['HTML', 'GitHub', 'JavaScript', 'Terminal'],
     popButton: 'See Project',
-    liveVersion: 'https://bupilipili.github.io/MY-PORTFOLIO/',
-    sourceLink: 'https://github.com/Bupilipili/MY-PORTFOLIO',
+    liveVersion: 'https://bupilipili.github.io/Leaderboard/dist/',
+    sourceLink: 'https://github.com/Bupilipili/Leaderboard',
   },
   {
-    Name: ['Multi-Post Stories Gain+Glory', 'Keeping track of hundreds of components'],
-    backgroundImages: ['./features/images/'],
-    backgroundColor: ['#f2f2f2'],
-    description: ["Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s.", "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea"],
-    featuredimages: ['./features/images/pop-desktop.svg', './features/images/pop-mobile.svg', './features/icons/see live icon.svg', './features/icons/github-white.svg', './features/icons/X-button.svg'],
-    technologies: ['Ruby on Rails', 'CSS', 'Javascript', 'HTML'],
-    Keycomponents: ['Codekit', 'GitHub', 'JavaScript', 'Bootstrap', 'Terminal', 'Codepen'],
+    Name: ['Flavour Hub Web Application'],
+    backgroundImages: ['./features/images/food.png'],
+    backgroundColor: ['#FF5656'],
+    description: ["A single-page website that allows users to give likes and comments on their favorite meals which are fetched from MealsDB API, While the likes and comments are made possible with an Involvement API.", "A single-page website that allows users to give likes and comments on their favorite meals which are fetched from MealsDB API, While the likes and comments are made possible with an Involvement API."],
+    featuredimages: ['./features/images/flavour.png', './features/images/flavour.png', './features/icons/see live icon.svg', './features/icons/github-white.svg', './features/icons/X-button.svg'],
+    technologies: ['CSS', 'Javascript', 'HTML', 'Webpack'],
+    Keycomponents: ['CSS', 'Javascript', 'HTML', 'Webpack', 'Jest', 'Pair-programming'],
     popButton: 'See Project',
-    liveVersion: 'https://bupilipili.github.io/MY-PORTFOLIO/',
-    sourceLink: 'https://github.com/Bupilipili/MY-PORTFOLIO',
+    liveVersion: 'https://anshuman7negi.github.io/Kanban_board/dist/',
+    sourceLink: 'https://github.com/anshuman7negi/Kanban_board',
   },
   {
     Name: ['Multi-Post Stories Gain+Glory', 'Keeping track of hundreds of components'],
@@ -107,7 +107,7 @@ popButton.forEach((button, buttonIndex) => {
           <img class="pop-icon1" src="${projectsarray[cardIndex].featuredimages[4]}">
           <img class="image-pop" src="${projectsarray[cardIndex].featuredimages[1]}">
           <div>
-          <p class="pop-word">${projectsarray[cardIndex].Name[1]}</p>
+          <p class="pop-word">${projectsarray[cardIndex].Name[0]}</p>
           <ul class="pop-flexbox">
           <li class="item3">${projectsarray[cardIndex].technologies[0]}</li>
           <li class="item3">${projectsarray[cardIndex].technologies[1]}</li>
@@ -125,7 +125,7 @@ popButton.forEach((button, buttonIndex) => {
           <img class="image-pop2" src="${projectsarray[cardIndex].featuredimages[0]}">
           <div class="top-note">
           <div>
-          <p class="pop-word2">${projectsarray[cardIndex].Name[1]}</p>
+          <p class="pop-word2">${projectsarray[cardIndex].Name[0]}</p>
           <ul class="pop-flexbox2">
           ${projectsarray[cardIndex].Keycomponents.map(component => `<li class="item3x">${component}</li>`).join('')}
           </ul>
