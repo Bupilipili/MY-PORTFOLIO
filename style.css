@@ -353,12 +353,13 @@ nav {
 
 .main-container {
   display: grid;
-  grid-template-columns: auto;
+  grid-template-columns: 22rem;
   grid-template-rows: auto auto auto auto auto auto;
   gap: 24px;
   margin-left: 28px;
   margin-right: 28px;
   position: relative;
+  justify-content: center;
 }
 
 .about {
@@ -814,11 +815,12 @@ textarea {
 
   .main-container {
     display: grid;
-    grid-template-columns: auto auto auto;
+    grid-template-columns: 22rem 22rem 22rem;
     grid-template-rows: auto auto;
     gap: 1.5rem;
     margin-left: 8.188rem;
     margin-right: 8.125rem;
+    justify-content: center;
   }
 
   .about {
