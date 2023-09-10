@@ -111,7 +111,7 @@ nav {
   font-weight: 400;
   font-size: 20px;
   line-height: 140%;
-  padding: 8px 1px 16px 1px;
+  padding: 2px 14px 18px 14px;
 }
 
 .icon-box {
@@ -684,7 +684,7 @@ textarea {
     font-weight: 400;
     font-size: 20px;
     line-height: 32px;
-    padding: 1.5rem 16.5rem 1.5rem 16.5rem;
+    padding: 1.5rem 14.5rem 1.5rem 14.5rem;
   }
 
   .icon-box {
