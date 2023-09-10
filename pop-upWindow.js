@@ -1,17 +1,5 @@
 const projectsarray = [
   {
-    Name: ['Space Travelers Hub Application'],
-    backgroundImages: ['./features/images/space.jpg'],
-    backgroundColor: ['#14143A'],
-    description: ["Space Travelers' Hub is a web application designed to assist users in managing their rocket and mission reservations for space travel. The application aims to provide a platform where users can easily book and keep track of their reserved rockets and missions.", "Space Travelers' Hub is a web application designed to assist users in managing their rocket and mission reservations for space travel. The application aims to provide a platform where users can easily book and keep track of their reserved rockets and missions."],
-    featuredimages: ['./features/images/spacehub.png', './features/images/spacehub.png', './features/icons/see live icon.svg', './features/icons/github-white.svg', './features/icons/X-button.svg'],
-    technologies: ['React', 'Redux', 'Jest', 'CSS'],
-    Keycomponents: ['CSS', 'React', 'Redux', 'Jest', 'Pair-programming'],
-    popButton: 'See Project',
-    liveVersion: 'https://spacetravelershub0x.netlify.app/',
-    sourceLink: 'https://github.com/Bupilipili/Space-Travelers-Hub',
-  },
-  {
     Name: ['City Weather Mobile Application'],
     backgroundImages: ['./features/images/weather.jpg'],
     backgroundColor: ['#001020'],
@@ -34,6 +22,18 @@ const projectsarray = [
     popButton: 'See Project',
     liveVersion: 'https://bookstore-001.netlify.app/',
     sourceLink: 'https://github.com/Bupilipili/bookstore',
+  },
+  {
+    Name: ['Space Travelers Hub Application'],
+    backgroundImages: ['./features/images/space.jpg'],
+    backgroundColor: ['#14143A'],
+    description: ["Space Travelers' Hub is a web application designed to assist users in managing their rocket and mission reservations for space travel. The application aims to provide a platform where users can easily book and keep track of their reserved rockets and missions.", "Space Travelers' Hub is a web application designed to assist users in managing their rocket and mission reservations for space travel. The application aims to provide a platform where users can easily book and keep track of their reserved rockets and missions."],
+    featuredimages: ['./features/images/spacehub.png', './features/images/spacehub.png', './features/icons/see live icon.svg', './features/icons/github-white.svg', './features/icons/X-button.svg'],
+    technologies: ['React', 'Redux', 'Jest', 'CSS'],
+    Keycomponents: ['CSS', 'React', 'Redux', 'Jest', 'Pair-programming'],
+    popButton: 'See Project',
+    liveVersion: 'https://spacetravelershub0x.netlify.app/',
+    sourceLink: 'https://github.com/Bupilipili/Space-Travelers-Hub',
   },
   {
     Name: ['Focus Gender Equality Fellowship 2023'],
@@ -156,39 +156,7 @@ popButton.forEach((button, buttonIndex) => {
 });
 
 
-
-
-
-
-
 /*
-{
-  Name: ['Focus Gender Equality Fellowship 2023'],
-  backgroundImages: ['./features/images/FGE.png'],
-  backgroundColor: ['#e23531'],
-  description: ["The FGE Fellowship 2023 is an hypothetical event which show cases the use of different Web technologies such as HTML5, CSS3 and Javascript with also displaying the website which is responsive to all screen sizes.", "The FGE Fellowship 2023 is an hypothetical event which show cases the use of different Web technologies such as HTML5, CSS3 and Javascript with also displaying the website which is responsive to all screen sizes."],
-  featuredimages: ['./features/images/Desk-FGE.png', './features/images/Mobi-FGE.jpeg', './features/icons/see live icon.svg', './features/icons/github-white.svg', './features/icons/X-button.svg'],
-  technologies: ['CSS', 'Javascript', 'HTML'],
-  Keycomponents: ['CSS', 'JavaScript', 'HTML', 'GitHub'],
-  popButton: 'See Project',
-  liveVersion: 'https://bupilipili.github.io/First-Capstone-Project/',
-  sourceLink: 'https://github.com/Bupilipili/First-Capstone-Project.git',
-}
-*/
-
-/*{
-    Name: ['LeaderBoard Web Application'],
-    backgroundImages: ['./features/images/Leaderboard.jpg'],
-    backgroundColor: ['#27546B'],
-    description: ["Leaderboard is a web application that uses API to display scores put by the users. So the user puts the name and score as input the submits it, this takes the data to the API and when the user presses 'Refresh' button the data is fetched from API and then displayed on the leaderboard.", "Leaderboard is a web application that uses API to display scores put by the users. So the user puts the name and score as input the submits it, this takes the data to the API and when the user presses 'Refresh' button the data is fetched from API and then displayed on the leaderboard."],
-    featuredimages: ['./features/images/LEAD.png', './features/images/LEAD.png', './features/icons/see live icon.svg', './features/icons/github-white.svg', './features/icons/X-button.svg'],
-    technologies: ['CSS', 'Javascript', 'HTML'],
-    Keycomponents: ['HTML', 'GitHub', 'JavaScript', 'Terminal'],
-    popButton: 'See Project',
-    liveVersion: 'https://bupilipili.github.io/Leaderboard/dist/',
-    sourceLink: 'https://github.com/Bupilipili/Leaderboard',
-  }
-
   {
     Name: ['Math Magicians Calculator'],
     backgroundImages: ['./features/images/calculator.jpg'],
