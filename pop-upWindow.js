@@ -1,15 +1,15 @@
 const projectsarray = [
   {
-    Name: ['City Weather Mobile Application'],
+    Name: ['Weather Dashboard Web Application'],
     backgroundImages: ['./features/images/weather.jpg'],
     backgroundColor: ['#001020'],
     description: ["This app provides users with real-time weather information for cities worldwide. It offers a user-friendly interface, live updates, and detailed weather data, making it a handy tool for quickly checking weather conditions and making informed decisions.", "This app provides users with real-time weather information for cities worldwide. It offers a user-friendly interface, live updates, and detailed weather data, making it a handy tool for quickly checking weather conditions and making informed decisions."],
-    featuredimages: ['./features/images/cityweather.png', './features/images/cityweather.png', './features/icons/see live icon.svg', './features/icons/github-white.svg', './features/icons/X-button.svg'],
+    featuredimages: ['./features/images/weather-dash.jpeg', './features/images/weather-mob.jpeg', './features/icons/see live icon.svg', './features/icons/github-white.svg', './features/icons/X-button.svg'],
     technologies: ['React', 'Redux', 'CSS', 'Jest'],
     Keycomponents: ['CSS', 'GitHub', 'React', 'Redux', 'Jest', 'Terminal'],
     popButton: 'See Project',
-    liveVersion: 'https://city-weather-4e.netlify.app/',
-    sourceLink: 'https://github.com/Bupilipili/City-Weather',
+    liveVersion: 'https://ashweather.netlify.app/',
+    sourceLink: 'https://github.com/Bupilipili/Weather-Dashboard',
   },
   {
     Name: ['Bookstore Web Application'],
